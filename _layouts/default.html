@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+   <title> Yuheng Ji's HomePage.</title>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <!--[if lt IE 9]>    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    {% include head-custom.html %}
+  </head>
+  <body>
+      <div class="wrapper">
+          <header>
+              <h1 align="center"><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+
+              <img src="{{site.logo | relative_url}}" alt="Logo" />
+
+              <h1></h1>
+
+              Now I am a junior student in <a href="https://www.neuq.edu.cn/">Northeastern University at Qinhuangdao(NEUQ)</a>, majoring in Computer Science and Technology.
+
+              <h1></h1>
+
+              <b>Email: </b>Yuheng8787@gmail.com
+
+              </br>
+
+              [<a href="https://github.com/Yuheng2000">Github</a>]
+
+
+</header>
+          <section>
+
+              {{ content }}
+
+          </section>
+
+      </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  </body>
+</html>
