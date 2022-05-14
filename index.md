@@ -37,7 +37,7 @@ Coming soon...
 
 # Education
 
-- [2019.9-now] 
+- **[2019.9-now]**  
 
   B.E. in <a href="https://www.neuq.edu.cn/">NorthEastern University at Qinhuangdao (NEUQ)</a>. 
 
@@ -45,12 +45,12 @@ Coming soon...
 
 # Award
 
-- [2022] Merit Student of Hebei Province.
-- [2021] Pexpertmaker to Merit Student, NEUQ.
-- [2021] National Scholarship, Ministry of Education of the People’s Republic of China.
-- [2021] The First Prize, Mathematical Contest in Modeling of Huashu.
-- [2021] The third prize, Asia and Pacific Mathematical Contest in Modeling.
-- [2020] National Scholarship, Ministry of Education of the People’s Republic of China.
+- **[2022]** Merit Student of Hebei Province.
+- **[2021]** Pexpertmaker to Merit Student, NEUQ.
+- **[2021]** National Scholarship, Ministry of Education of the People’s Republic of China.
+- **[2021]** The First Prize, Mathematical Contest in Modeling of Huashu.
+- **[2021]** The third prize, Asia and Pacific Mathematical Contest in Modeling.
+- **[2020]** National Scholarship, Ministry of Education of the People’s Republic of China.
 
 
 # Friendship Link
