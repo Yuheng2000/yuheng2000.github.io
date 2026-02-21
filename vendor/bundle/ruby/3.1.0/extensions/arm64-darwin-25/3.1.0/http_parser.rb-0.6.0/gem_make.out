@@ -1,0 +1,20 @@
+current directory: /Users/baai/Downloads/github仓库文件/yuheng2000.github.io/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/opt/homebrew/opt/ruby@3.1/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/baai/Downloads/github仓库文件/yuheng2000.github.io/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20260201-61424-bbahal sitelibdir\=./.gem.20260201-61424-bbahal clean
+
+current directory: /Users/baai/Downloads/github仓库文件/yuheng2000.github.io/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20260201-61424-bbahal sitelibdir\=./.gem.20260201-61424-bbahal
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.1'
+
+current directory: /Users/baai/Downloads/github仓库文件/yuheng2000.github.io/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20260201-61424-bbahal sitelibdir\=./.gem.20260201-61424-bbahal install
+/usr/bin/install -c -m 0755 ruby_http_parser.bundle ./.gem.20260201-61424-bbahal
+
+current directory: /Users/baai/Downloads/github仓库文件/yuheng2000.github.io/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20260201-61424-bbahal sitelibdir\=./.gem.20260201-61424-bbahal clean

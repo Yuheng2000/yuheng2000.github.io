@@ -1,0 +1,23 @@
+<meta charset="utf-8">
+
+{% include seo.html %}
+
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="assets/css/main.css">
+{% assign avatar_icon = site.author.avatar | relative_url %}
+<link rel="icon" type="image/png" href="{{ avatar_icon }}?v={{ site.time | date: '%s' }}">
+<link rel="shortcut icon" type="image/png" href="{{ avatar_icon }}?v={{ site.time | date: '%s' }}">
+<link rel="apple-touch-icon" href="{{ avatar_icon }}?v={{ site.time | date: '%s' }}">
+
+<meta http-equiv="cleartype" content="on">
+<head>
+  <base target="_blank">
+</head>

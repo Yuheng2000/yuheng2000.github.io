@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="860" viewBox="0 0 1200 860" role="img" aria-labelledby="title desc">
+  <title id="title">Research Framework</title>
+  <desc id="desc">A four-stage roadmap: Evaluation and Analysis, Method Development, Model Construction, and System Expansion.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#1f2937" />
+    </marker>
+    <style>
+      .title { font: 700 36px 'Helvetica Neue', Arial, sans-serif; fill: #111827; }
+      .subtitle { font: 500 20px 'Helvetica Neue', Arial, sans-serif; fill: #374151; }
+      .h { font: 700 26px 'Helvetica Neue', Arial, sans-serif; fill: #0f172a; }
+      .p { font: 500 18px 'Helvetica Neue', Arial, sans-serif; fill: #334155; }
+      .small { font: 500 16px 'Helvetica Neue', Arial, sans-serif; fill: #475569; }
+      .box { fill: #f8fafc; stroke: #cbd5e1; stroke-width: 2; rx: 18; }
+      .goal { fill: #eef2ff; stroke: #a5b4fc; stroke-width: 2.2; rx: 18; }
+      .line { stroke: #1f2937; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect x="20" y="20" width="1160" height="820" rx="20" fill="#ffffff" stroke="#e5e7eb" stroke-width="2"/>
+
+  <text x="600" y="78" text-anchor="middle" class="title">Research Framework</text>
+  <text x="600" y="114" text-anchor="middle" class="subtitle">Evaluation &amp; Analysis → Method Development → Model Construction → System Expansion</text>
+
+  <rect x="130" y="150" width="940" height="94" class="goal"/>
+  <text x="600" y="188" text-anchor="middle" class="h">Research Goal</text>
+  <text x="600" y="220" text-anchor="middle" class="p">Build a spatial-temporal foundation model framework for complex embodied interaction.</text>
+
+  <rect x="240" y="290" width="720" height="100" class="box"/>
+  <text x="600" y="330" text-anchor="middle" class="h">1) Evaluation &amp; Analysis</text>
+  <text x="600" y="360" text-anchor="middle" class="p">Benchmark design, capability diagnostics, and mechanism analysis.</text>
+
+  <line x1="600" y1="390" x2="600" y2="446" class="line"/>
+
+  <rect x="240" y="456" width="720" height="100" class="box"/>
+  <text x="600" y="496" text-anchor="middle" class="h">2) Method Development</text>
+  <text x="600" y="526" text-anchor="middle" class="p">Reasoning/RL enhancement and long-horizon optimization strategies.</text>
+
+  <line x1="600" y1="556" x2="600" y2="612" class="line"/>
+
+  <rect x="240" y="622" width="720" height="100" class="box"/>
+  <text x="600" y="662" text-anchor="middle" class="h">3) Model Construction</text>
+  <text x="600" y="692" text-anchor="middle" class="p">Embodied model family with robust spatial-temporal cognition.</text>
+
+  <line x1="600" y1="722" x2="600" y2="778" class="line"/>
+
+  <rect x="240" y="788" width="720" height="40" class="box"/>
+  <text x="600" y="814" text-anchor="middle" class="h" style="font-size:24px;">4) System Expansion: Multi-agent, lifelong, and scalable deployment</text>
+
+  <text x="600" y="842" text-anchor="middle" class="small">Closed-loop roadmap for embodied foundation models</text>
+</svg>
