@@ -391,7 +391,7 @@ This survey revisits robot manipulation in the foundation-model era through a un
 
 Yipu Wang\*, **Yuheng Ji\***, Yuyang Liu, Enshen Zhou, Ziqiang Yang, Yuxuan Tian, Ziheng Qin, Yue Liu, Huajie Tan, Cheng Chi, Zhiyuan Ma, Daniel Dajun Zeng, Xiaolong Zheng
 
-ArXiv 2025
+First Author, ArXiv 2025
 
 [**Project**](https://github.com/WangYipu2002/CrossPoint) <strong>|</strong> [**Paper**](https://arxiv.org/abs/2512.04686)
 
