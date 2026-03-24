@@ -24,6 +24,7 @@ I am also open to collaborative opportunities and research partnerships, feel fr
 
 # 🔥 News
 
+- *2026.03*: 🔥 Released [PRM-as-a-Judge](https://prm-as-a-judge.github.io/) with [Blog](https://prm-as-a-judge.github.io/blog.html), [Leaderboard](https://prm-as-a-judge.github.io/leaderboard.html), and [Paper](https://arxiv.org/abs/2603.21669).
 - *2026.02*: 🎉 Three papers were accepted by **CVPR 2026**! Congratulations to all collaborators!
 - *2026.01*: 🔥 Released [RoboBrain 2.5](https://github.com/FlagOpen/RoboBrain2.5) (core contributor).
 - *2025.10*: 🔥 Released more advanced [RoboOS-NeXT](https://arxiv.org/abs/2510.26536) (first author).
@@ -187,6 +188,22 @@ Huajie Tan\*, Peterson Co\*, Yijie Xu\*, Shanyu Rong, **Yuheng Ji**, Cheng Chi, 
 [**Project**](https://action-sketcher.github.io/) <strong>|</strong>  [**Paper**](https://arxiv.org/abs/2601.01618) <strong>|</strong> [**Code**](https://github.com/FlagOpen/Action-Sketcher) ![](https://img.shields.io/github/stars/FlagOpen/Action-Sketcher)
 
 Action-Sketcher proposes a See-Think-Sketch-Act loop that inserts editable visual sketches as an intermediate representation between language reasoning and robot actions. This design improves grounding, long-horizon robustness, and interpretability in cluttered and dynamic manipulation environments.
+
+</div>
+</div>
+
+<div class='paper-box' data-cat='evaluation' data-order='5'><div class='paper-box-image'><div><div class="badge">ArXiv 2026</div><img src='images/prm-as-a-judge.png' alt="PRM-as-a-Judge" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[PRM-as-a-Judge: A Dense Evaluation Paradigm for Fine-Grained Robotic Auditing](https://arxiv.org/abs/2603.21669)
+
+**Yuheng Ji\***, Yuyang Liu\*, Huajie Tan\*, Xuchuan Huang, Fanding Huang, Yijie Xu, Cheng Chi, Yuting Zhao, Huaihai Lyu, Peterson Co, Mingyu Cao, Qiongyu Zhang, Zhe Li, Enshen Zhou, Pengwei Wang, Zhongyuan Wang, Shanghang Zhang, Xiaolong Zheng
+
+First Author, Project Leader, ArXiv 2026
+
+[**Project**](https://prm-as-a-judge.github.io/) <strong>|</strong> [**Blog**](https://prm-as-a-judge.github.io/blog.html) <strong>|</strong> [**Leaderboard**](https://prm-as-a-judge.github.io/leaderboard.html) <strong>|</strong> [**Paper**](https://arxiv.org/abs/2603.21669)
+
+PRM-as-a-Judge introduces a dense robotic evaluation paradigm that moves beyond binary success rates by auditing execution progress directly from trajectory videos. With the OPD (Outcome-Process-Diagnosis) metric system and a potential-based PRM judge, it enables macro-consistent scoring and fine-grained diagnosis of policy behavior on long-horizon tasks.
 
 </div>
 </div>

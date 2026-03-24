@@ -9,13 +9,16 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
     - name: Run
       run: |
+        set +e
         cd ./google_scholar_crawler
         python3 -m pip install --upgrade pip
         pip3 install -r requirements.txt
         python3 main.py
+        PY_EXIT=$?
+        set -e
         cd ./results
         git init
         git config --local user.name "${GITHUB_ACTOR}"
@@ -28,6 +31,9 @@ jobs:
         fi
         git commit -m "Updated Citation Data"
         git push "${remote_repo}" HEAD:google-scholar-stats --force
+        if [ "$PY_EXIT" -ne 0 ]; then
+          echo "Crawler exited with code ${PY_EXIT}, but workflow continues by design."
+        fi
       env: 
         GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
         FAIL_ON_FETCH_ERROR: "0"

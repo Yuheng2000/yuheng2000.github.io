@@ -4,12 +4,19 @@ from datetime import datetime
 import os
 import time
 
+DEFAULT_GOOGLE_SCHOLAR_ID = "X4ILYUQAAAAJ"
+
 
 def _enable_proxy() -> None:
     # FreeProxies helps reduce failures on GitHub-hosted runners.
     pg = ProxyGenerator()
-    if pg.FreeProxies():
-        scholarly.use_proxy(pg)
+    try:
+        if pg.FreeProxies():
+            scholarly.use_proxy(pg)
+    except Exception as exc:
+        # scholarly + upstream http stack can occasionally break compatibility.
+        # Fall back to direct access instead of failing the whole workflow.
+        print(f"Warning: proxy initialization failed, continue without proxy: {exc}")
 
 
 def _fetch_author(author_id: str, retries: int = 3) -> dict:
@@ -52,6 +59,11 @@ def _write_results(author: dict, error: str | None = None) -> None:
 
 def main() -> int:
     author_id = os.environ.get("GOOGLE_SCHOLAR_ID", "").strip()
+    if not author_id:
+        # Fallback for personal-site automation when repository secret is missing.
+        author_id = DEFAULT_GOOGLE_SCHOLAR_ID
+        print(f"Warning: GOOGLE_SCHOLAR_ID is not set, fallback to {author_id}.")
+
     if not author_id:
         raise RuntimeError("Missing GOOGLE_SCHOLAR_ID environment variable.")
 
