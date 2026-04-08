@@ -524,7 +524,8 @@ This work studies the scaling challenge of universal AI-generated image detectio
 
 # 🤝 Services
 
-- Reviewer for CVPR, ICLR, ICML, ICMR, ICME, AAAI
+- Reviewer for CVPR, ICLR, ICML, AAAI, ICMR, ICME
+- Reviewer for IEEE T-MM
 
 <span class='anchor' id='awards'></span>
 
