@@ -24,6 +24,7 @@ I am also open to collaborative opportunities and research partnerships, feel fr
 
 # 🔥 News
 
+- *2026.05*: 🎉 Two papers were accepted by **ICML 2026**! Congratulations to all collaborators!
 - *2026.03*: 🔥 Released [PRM-as-a-Judge](https://prm-as-a-judge.github.io/) with [Blog](https://prm-as-a-judge.github.io/blog.html), [Leaderboard](https://prm-as-a-judge.github.io/leaderboard.html), and [Paper](https://arxiv.org/abs/2603.21669).
 - *2026.02*: 🎉 Three papers were accepted by **CVPR 2026**! Congratulations to all collaborators!
 - *2026.01*: 🔥 Released [RoboBrain 2.5](https://github.com/FlagOpen/RoboBrain2.5) (core contributor).
