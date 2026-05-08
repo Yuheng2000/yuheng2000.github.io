@@ -517,7 +517,7 @@ This work studies the scaling challenge of universal AI-generated image detectio
 # 💼 Experience
 
 - PhD candidate student @ [Chinese Academy of Sciences, Institute of Automation (CASIA)](http://www.ia.cas.cn/), supervised by Prof. [Xiaolong Zheng](https://people.ucas.edu.cn/~xlzheng)
-- Visiting student @ [Beijing Academy of Artificial Intelligence (BAAI)](https://www.baai.ac.cn/), supervised by Prof. [Shanghang Zhang](https://scholar.google.com/citations?user=voqw10cAAAAJ&hl=en), Dr. [Pengwei Wang](https://scholar.google.com/citations?user=2xR6P5AAAAAJ&hl=zh-CN&oi=ao) and Dr. [Cheng Chi](https://scholar.google.com/citations?user=wWGpskcAAAAJ&hl=en&oi=ao)
+- Visiting student @ [Beijing Academy of Artificial Intelligence (BAAI)](https://www.baai.ac.cn/), supervised by Prof. [Shanghang Zhang](https://scholar.google.com/citations?user=voqw10cAAAAJ&hl=en), and Dr. [Pengwei Wang](https://scholar.google.com/citations?user=2xR6P5AAAAAJ&hl=zh-CN&oi=ao)
 - Remote visiting student @ [National University of Singapore (NUS)](https://www.nus.edu.sg/), working with Ph.D. [Yue Liu](https://yueliu1999.github.io/)
 - Bachelor of engineering @ [Northeastern University](http://english.neu.edu.cn/), supervised by Prof. Miao Fang
 
