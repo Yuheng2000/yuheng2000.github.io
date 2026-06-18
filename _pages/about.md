@@ -10,7 +10,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am Yuheng Ji (冀昱衡), a lyric poet, and a PhD candidate at the [Institute of Automation, Chinese Academy of Sciences (CASIA)](http://www.ia.cas.cn/). I am supervised by Prof. [Xiaolong Zheng](https://people.ucas.edu.cn/~xlzheng). My research interests include embodied AI and foundation models. 
+I am Yuheng Ji (冀昱衡), a lyric poet, and a PhD candidate at the [Institute of Automation, Chinese Academy of Sciences (CASIA)](http://www.ia.cas.cn/). I am supervised by Prof. [Xiaolong Zheng](https://people.ucas.edu.cn/~xlzheng). My research interests include embodied AI and world models. 
 
 I am also open to collaborative opportunities and research partnerships, feel free to email me: jiyuheng2023@ia.ac.cn.
 
@@ -24,6 +24,7 @@ I am also open to collaborative opportunities and research partnerships, feel fr
 
 # 🔥 News
 
+- *2026.06*: 🎉 Two papers were accepted by **ECCV 2026**! Congratulations to all collaborators!
 - *2026.05*: 🎉 Two papers were accepted by **ICML 2026**! Congratulations to all collaborators!
 - *2026.03*: 🔥 Released [PRM-as-a-Judge](https://prm-as-a-judge.github.io/) with [Blog](https://prm-as-a-judge.github.io/blog.html), [Leaderboard](https://prm-as-a-judge.github.io/leaderboard.html), and [Paper](https://arxiv.org/abs/2603.21669).
 - *2026.02*: 🎉 Three papers were accepted by **CVPR 2026**! Congratulations to all collaborators!
@@ -418,14 +419,14 @@ This work introduces the Cross-View Point Correspondence task and CrossPoint-Ben
 </div>
 </div>
 
-<div class='paper-box' data-cat='method' data-order='40'><div class='paper-box-image'><div><div class="badge">ArXiv 2025</div><img src='images/robotracer.png' alt="RoboTracer" width="100%"></div></div>
+<div class='paper-box' data-cat='method' data-order='40'><div class='paper-box-image'><div><div class="badge">ECCV 2026</div><img src='images/robotracer.png' alt="RoboTracer" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [RoboTracer: Mastering Spatial Trace with Reasoning in Vision-Language Models for Robotics](https://arxiv.org/abs/2512.13660)
 
 Enshen Zhou, Cheng Chi, Yibo Li, Jingkun An, Jiayuan Zhang, Shanyu Rong, Yi Han, **Yuheng Ji**, Mengzhen Liu, Pengwei Wang, Zhongyuan Wang, Lu Sheng, Shanghang Zhang
 
-ArXiv 2025
+<span style="color: red;">ECCV 2026</span>
 
 [**Project**](https://zhoues.github.io/RoboTracer/) <strong>|</strong> [**Paper**](https://arxiv.org/abs/2512.13660)
 
@@ -434,14 +435,14 @@ RoboTracer targets metric-grounded multi-step spatial tracing for robotics by co
 </div>
 </div>
 
-<div class='paper-box' data-cat='others' data-order='50'><div class='paper-box-image'><div><div class="badge">ArXiv 2025</div><img src='images/robomirror.png' alt="RoboMirror" width="100%"></div></div>
+<div class='paper-box' data-cat='method' data-order='45'><div class='paper-box-image'><div><div class="badge">ECCV 2026</div><img src='images/robomirror.png' alt="RoboMirror" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [RoboMirror: Understand Before You Imitate for Video to Humanoid Locomotion](https://arxiv.org/abs/2512.23649)
 
 Zhe Li, Cheng Chi, Boan Zhu, Yangyang Wei, Shuanghao Bai, **Yuheng Ji**, Yibo Peng, Tao Huang, Pengwei Wang, Zhongyuan Wang, S.-H. Gary Chan, Chang Xu, Shanghang Zhang
 
-ArXiv 2025
+<span style="color: red;">ECCV 2026</span>
 
 [**Paper**](https://arxiv.org/abs/2512.23649)
 
@@ -532,6 +533,7 @@ This work studies the scaling challenge of universal AI-generated image detectio
 
 # 🏆 Awards
 
+- [2026] Model Merit Student, UCAS, School Award
 - [2025] China National Scholarship for Master's Degree Students, National Award
 - [2024] Merit Student, UCAS, School Award
 - [2023] Outstanding Graduates, Provincial Award
