@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yuheng Ji (冀昱衡)"
-description              : "PhD candidate at CASIA. Research interests include embodied AI and foundation models."
+description              : "PhD candidate at CASIA. Research interests include world models and embodied AI."
 repository               : "Yuheng2000/yuheng2000.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  : ""
 author:
   name             : "Yuheng Ji (冀昱衡)"
   avatar           : "images/jiyuheng3.png"
-  bio              : "PhD candidate at CASIA. Research interests include embodied AI and foundation models."
+  bio              : "PhD candidate at CASIA. Research interests include world models and embodied AI."
   location         : "Beijing, China"
   employer         : "Institute of Automation, CAS"
   pubmed           : 

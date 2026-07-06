@@ -10,7 +10,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am Yuheng Ji (冀昱衡), a lyric poet, and a PhD candidate at the [Institute of Automation, Chinese Academy of Sciences (CASIA)](http://www.ia.cas.cn/). I am supervised by Prof. [Xiaolong Zheng](https://people.ucas.edu.cn/~xlzheng). My research interests include embodied AI and world models. 
+I am Yuheng Ji (冀昱衡), a lyric poet, and a PhD candidate at the [Institute of Automation, Chinese Academy of Sciences (CASIA)](http://www.ia.cas.cn/). I am supervised by Prof. [Xiaolong Zheng](https://people.ucas.edu.cn/~xlzheng). I also work closely with Dr. [Pengwei Wang](https://scholar.google.com/citations?user=2xR6P5AAAAAJ&hl=zh-CN&oi=ao) at the [Beijing Academy of Artificial Intelligence (BAAI)](https://www.baai.ac.cn/). My research interests include world models and embodied AI. 
 
 I am also open to collaborative opportunities and research partnerships, feel free to email me: jiyuheng2023@ia.ac.cn.
 
@@ -24,6 +24,7 @@ I am also open to collaborative opportunities and research partnerships, feel fr
 
 # 🔥 News
 
+- *2026.06*: 🔥 Released [Orca](https://orca-wm.github.io/) in **BAAI Conference 2026** (first author, project lead).
 - *2026.06*: 🎉 Two papers were accepted by **ECCV 2026**! Congratulations to all collaborators!
 - *2026.05*: 🎉 Two papers were accepted by **ICML 2026**! Congratulations to all collaborators!
 - *2026.03*: 🔥 Released [PRM-as-a-Judge](https://prm-as-a-judge.github.io/) with [Blog](https://prm-as-a-judge.github.io/blog.html), [Leaderboard](https://prm-as-a-judge.github.io/leaderboard.html), and [Paper](https://arxiv.org/abs/2603.21669).
@@ -82,7 +83,23 @@ In the **Model Construction** module, we were among the early works (CVPR 2025) 
 </div>
 </div>
 
-<div class='paper-box' data-cat='model' data-order='10'><div class='paper-box-image'><div><div class="badge">Technical Report 2026</div><img src='images/robobrain25.png' alt="RoboBrain 2.5" width="100%"></div></div>
+<div class='paper-box' data-cat='model' data-order='10'><div class='paper-box-image'><div><div class="badge">Technical Report 2026</div><img src='images/orca.jpg' alt="Orca" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Orca: The World is in Your Mind.](https://arxiv.org/abs/2606.30534)
+
+BAAI Orca Team
+
+<span style="color: red;">First Author, Project Lead</span>, Technical Report 2026
+
+[**Project**](https://orca-wm.github.io/) <strong>|</strong> [**Paper**](https://arxiv.org/abs/2606.30534) <strong>|</strong> [**Code**](https://github.com/orca-wm/Orca) ![](https://img.shields.io/github/stars/orca-wm/Orca)
+
+Orca is a world model that shifts the learning target from next-token, next-frame, or next-action prediction to next-state prediction. It learns a unified world latent representation from multimodal world signals and supports downstream readouts for language, vision, and action.
+
+</div>
+</div>
+
+<div class='paper-box' data-cat='model' data-order='20'><div class='paper-box-image'><div><div class="badge">Technical Report 2026</div><img src='images/robobrain25.png' alt="RoboBrain 2.5" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [RoboBrain 2.5: Depth in Sight, Time in Mind.](https://arxiv.org/abs/2601.14352)
@@ -98,7 +115,7 @@ RoboBrain 2.5 upgrades embodied intelligence along two key axes: depth-aware 3D 
 </div>
 </div>
 
-<div class='paper-box' data-cat='model' data-order='20'><div class='paper-box-image'><div><div class="badge">Technical Report 2025</div><img src='images/robobrain2.png' alt="RoboBrain 2.0" width="100%"></div></div>
+<div class='paper-box' data-cat='model' data-order='30'><div class='paper-box-image'><div><div class="badge">Technical Report 2025</div><img src='images/robobrain2.png' alt="RoboBrain 2.0" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [RoboBrain 2.0: See Better. Think Harder. Do Smarter.](https://arxiv.org/abs/2507.02029)
@@ -114,7 +131,7 @@ RoboBrain 2.0 is an embodied vision-language foundation model family with 7B and
 </div>
 </div>
 
-<div class='paper-box' data-cat='model' data-order='30'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/robobrain.png' alt="RoboBrain" width="100%"></div></div>
+<div class='paper-box' data-cat='model' data-order='40'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/robobrain.png' alt="RoboBrain" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [RoboBrain: A Unified Brain Model for Robotic Manipulation from Abstract to Concrete](https://arxiv.org/abs/2502.21257)
@@ -242,7 +259,39 @@ MathSticks is a benchmark for Visual Symbolic Compositional Reasoning (VSCR) tha
 </div>
 </div>
 
-<div class='paper-box' data-cat='survey'><div class='paper-box-image'><div><div class="badge">ArXiv 2025</div><img src='images/manipulation_survey.png' alt="Manipulation Survey" width="100%"></div></div>
+<div class='paper-box' data-cat='survey' data-order='10'><div class='paper-box-image'><div><div class="badge">Preprints 2026</div><img src='images/vla_evaluation_survey.svg' alt="VLA Evaluation Survey" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[The Evaluation Bottleneck of Vision-Language-Action Models: A Evaluation-Centric Survey](https://www.preprints.org/manuscript/202606.0425/v1)
+
+Zirui Song, Huaxing Liu, Xiang Wang, Shuai Li, Xinye Li, **Yuheng Ji**, Lang Gao, Jinghui Zhang, Xianhui Meng, Xiaojun Chang, Xiuying Chen
+
+Preprints 2026
+
+[**Paper**](https://www.preprints.org/manuscript/202606.0425/v1)
+
+This survey examines evaluation as a core bottleneck for vision-language-action models, organizing existing benchmarks, protocols, and diagnostic settings around the needs of embodied decision-making, action execution, and real-world deployment.
+
+</div>
+</div>
+
+<div class='paper-box' data-cat='survey' data-order='20'><div class='paper-box-image'><div><div class="badge">Preprints 2026</div><img src='images/spatial_cognitive_map.png' alt="Spatial Cognitive Map Survey" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Spatial Intelligence from a Cognitive Map Perspective: A Survey](https://www.preprints.org/manuscript/202605.1782/v1)
+
+Yuxuan Tian\*, **Yuheng Ji\***, Xiaolong Zheng, Ziheng Qin, Yipu Wang, Xinyi Zheng, Yuyang Liu, Shuanghao Bai, Zhe Li, Liang Wang, et al.
+
+<span style="color: red;">First Author, Project Leader</span>, Preprints 2026
+
+[**Project**](https://klingsor-tyx.github.io/spatial-cognitive-map/) <strong>|</strong> [**Paper**](https://www.preprints.org/manuscript/202605.1782/v1) <strong>|</strong> [**Repo**](https://github.com/Klingsor-tyx/Awesome-Spatial-Cognitive-Map)
+
+This survey revisits spatial intelligence from the cognitive-map perspective, covering how agents perceive, organize, reason over, and generate spatial knowledge for embodied navigation, interaction, and general world understanding.
+
+</div>
+</div>
+
+<div class='paper-box' data-cat='survey' data-order='30'><div class='paper-box-image'><div><div class="badge">ArXiv 2025</div><img src='images/manipulation_survey.png' alt="Manipulation Survey" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Towards a Unified Understanding of Robot Manipulation: A Comprehensive Survey](https://arxiv.org/abs/2510.10903)
@@ -387,7 +436,7 @@ We propose a cross-modal hashing framework called CCMH (CLIP-based Cross-Modal H
 </div>
 </div>
 
-<div class='paper-box' data-cat='survey'><div class='paper-box-image'><div><div class="badge">ArXiv 2025</div><img src='images/foundation_model_embodied.png' alt="Embodied Robot Manipulation Survey" width="100%"></div></div>
+<div class='paper-box' data-cat='survey' data-order='40'><div class='paper-box-image'><div><div class="badge">ArXiv 2025</div><img src='images/foundation_model_embodied.png' alt="Embodied Robot Manipulation Survey" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Embodied Robot Manipulation in the Era of Foundation Models: Planning and Learning Perspectives](https://arxiv.org/abs/2512.22983)
@@ -518,7 +567,7 @@ This work studies the scaling challenge of universal AI-generated image detectio
 # 💼 Experience
 
 - PhD candidate student @ [Chinese Academy of Sciences, Institute of Automation (CASIA)](http://www.ia.cas.cn/), supervised by Prof. [Xiaolong Zheng](https://people.ucas.edu.cn/~xlzheng)
-- Visiting student @ [Beijing Academy of Artificial Intelligence (BAAI)](https://www.baai.ac.cn/), supervised by Prof. [Shanghang Zhang](https://scholar.google.com/citations?user=voqw10cAAAAJ&hl=en), and Dr. [Pengwei Wang](https://scholar.google.com/citations?user=2xR6P5AAAAAJ&hl=zh-CN&oi=ao)
+- Visiting student @ [Beijing Academy of Artificial Intelligence (BAAI)](https://www.baai.ac.cn/), supervised by Dr. [Pengwei Wang](https://scholar.google.com/citations?user=2xR6P5AAAAAJ&hl=zh-CN&oi=ao)
 - Remote visiting student @ [National University of Singapore (NUS)](https://www.nus.edu.sg/), working with Ph.D. [Yue Liu](https://yueliu1999.github.io/)
 - Bachelor of engineering @ [Northeastern University](http://english.neu.edu.cn/), supervised by Prof. Miao Fang
 
