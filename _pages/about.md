@@ -24,6 +24,7 @@ I am also open to collaborative opportunities and research partnerships, feel fr
 
 # 🔥 News
 
+- *2026.08*: 🔥 Released [PRM-as-a-Judge 1.5](https://prm-as-a-judge.github.io/), a toolkit for robot process assessment (project lead).
 - *2026.06*: 🔥 Released [Orca](https://orca-wm.github.io/) in **BAAI Conference 2026** (first author, project lead).
 - *2026.06*: 🎉 Two papers were accepted by **ECCV 2026**! Congratulations to all collaborators!
 - *2026.05*: 🎉 Two papers were accepted by **ICML 2026**! Congratulations to all collaborators!
@@ -79,6 +80,22 @@ Use the left-to-right menu below to browse detailed publications by category.
 <div class='paper-box-text' markdown="1">
 
 In the **Model Construction** module, we were among the early works (CVPR 2025) to formulate embodied foundation models under a Brain+Cerebellum hierarchical architecture. The core distinction between embodied and general foundation models lies in whether abstract human intents (e.g., "I am thirsty") can be transformed into concrete control signals, such as subtask planning, affordance grounding, trajectory generation, and point-level action targets. As a core contributor, I have been deeply involved in developing the RoboBrain series.
+
+</div>
+</div>
+
+<div class='paper-box' data-cat='evaluation' data-order='1'><div class='paper-box-image'><div><div class="badge">Technical Report 2026</div><img src='images/prm-as-a-judge-15.png' alt="PRM-as-a-Judge 1.5" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[PRM-as-a-Judge 1.5: A Toolkit for Robot Process Assessment](https://arxiv.org/abs/2608.14284)
+
+PRM-as-a-Judge Team
+
+<span style="color: red;">Project Lead</span>, Technical Report 2026
+
+[**Project / Blog**](https://prm-as-a-judge.github.io/) <strong>|</strong> [**Paper**](https://arxiv.org/abs/2608.14284) <strong>|</strong> [**Code**](https://github.com/YuyangLiu2003/PRM-as-a-Judge) ![](https://img.shields.io/github/stars/YuyangLiu2003/PRM-as-a-Judge)
+
+PRM-as-a-Judge 1.5 is a toolkit that turns robot rollout videos into dense progress curves and fine-grained process metrics. It extends the original framework with metrics for failure-side progress, post-drawdown recovery, and success-side execution quality, introduces RoboPulse++ for testing PRM reliability, and provides a reproducible assessment suite with benchmark, metric, and visualization tools.
 
 </div>
 </div>
@@ -170,7 +187,7 @@ We developed **Reason-RFT**, a reinforcement fine-tuning framework that enhances
 
 Huajie Tan\*, **Yuheng Ji\***, Cheng Chi\*, Xiansheng Chen\*, Zhongxia Zhao, Xiaoshuai Hao, Yaoxu Lyu, Mingyu Cao, Junkai Zhao, Huaihai Lyu, Enshen Zhou, Ning Chen, Yankai Fu, Cheng Peng, Wei Guo, Dong Liang, Zhuo Chen, Mengsi Lyu, Chenrui He, Yulong Ao, Yonghua Lin, Pengwei Wang, Zhongyuan Wang, Shanghang Zhang
 
-First Author, ArXiv 2025
+<span style="color: red;">First Author</span>, ArXiv 2025
 
 [**Project**](https://flagopen.github.io/RoboOS/) <strong>|</strong> [**Paper**](https://arxiv.org/abs/2510.26536) <strong>|</strong> [**Code**](https://github.com/FlagOpen/RoboOS) ![](https://img.shields.io/github/stars/FlagOpen/RoboOS)
 
@@ -216,9 +233,9 @@ Action-Sketcher proposes a See-Think-Sketch-Act loop that inserts editable visua
 
 [PRM-as-a-Judge: A Dense Evaluation Paradigm for Fine-Grained Robotic Auditing](https://arxiv.org/abs/2603.21669)
 
-**Yuheng Ji\***, Yuyang Liu\*, Huajie Tan\*, Xuchuan Huang, Fanding Huang, Yijie Xu, Cheng Chi, Yuting Zhao, Huaihai Lyu, Peterson Co, Mingyu Cao, Qiongyu Zhang, Zhe Li, Enshen Zhou, Pengwei Wang, Zhongyuan Wang, Shanghang Zhang, Xiaolong Zheng
+PRM-as-a-Judge Team
 
-First Author, Project Leader, ArXiv 2026
+<span style="color: red;">First Author, Project Leader</span>, ArXiv 2026
 
 [**Project**](https://prm-as-a-judge.github.io/) <strong>|</strong> [**Blog**](https://prm-as-a-judge.github.io/blog.html) <strong>|</strong> [**Leaderboard**](https://prm-as-a-judge.github.io/leaderboard.html) <strong>|</strong> [**Paper**](https://arxiv.org/abs/2603.21669)
 
@@ -234,7 +251,7 @@ PRM-as-a-Judge introduces a dense robotic evaluation paradigm that moves beyond 
 
 **Yuheng Ji\***, Yipu Wang\*, Yuyang Liu, Xiaoshuai Hao, Yue Liu, Yuting Zhao, Huaihai Lyu, Xiaolong Zheng
 
-First Author, ArXiv 2025
+<span style="color: red;">First Author</span>, ArXiv 2025
 
 [**Paper**](http://arxiv.org/abs/2508.04043) <strong>|</strong> [**Code**](https://github.com/WangYipu2002/VisualTrans) <strong>|</strong> [**Datasets**](https://github.com/WangYipu2002/VisualTrans)
 
@@ -459,7 +476,7 @@ This survey revisits robot manipulation in the foundation-model era through a un
 
 Yipu Wang\*, **Yuheng Ji\***, Yuyang Liu, Enshen Zhou, Ziqiang Yang, Yuxuan Tian, Ziheng Qin, Yue Liu, Huajie Tan, Cheng Chi, Zhiyuan Ma, Daniel Dajun Zeng, Xiaolong Zheng
 
-First Author, ArXiv 2025
+<span style="color: red;">First Author</span>, ArXiv 2025
 
 [**Project**](https://github.com/WangYipu2002/CrossPoint) <strong>|</strong> [**Paper**](https://arxiv.org/abs/2512.04686)
 
@@ -592,24 +609,3 @@ This work studies the scaling challenge of universal AI-generated image detectio
 - [2021] China National Scholarship for Undergraduate Student, National Award
 - [2020] China National Scholarship for Undergraduate Student, National Award
 - [2019-2023] Scholarships, School Award
-
-<span class='anchor' id='others'></span>
-
-# 📎 Others
-
-- [2024] 冀昱衡, 张曌, 郑晓龙, "大模型微调中的低秩性," 中国指挥与控制学会通讯 55 (1), 44-49.
-- [2023] 冀昱衡, 张兴伟, 郑晓龙, "基于多模态预训练的跨模态检索算法研究," 中国指挥与控制学会通讯 46 (4), 10-16.
-- [2023] 一种基于多模态预训练的跨模态哈希检索系统，发明专利，第一发明人
-- [2023] 一种基于图神经网络的信用卡欺诈检测系统，发明专利，第一发明人
-- [2023] 一种针对检索模型的在线隐私保护系统，发明专利，第二发明人
-- [2022] 一种基于新闻主题句的文本情感分类系统，发明专利，第二发明人
-
-<span class='anchor' id='projects'></span>
-
-# 📌 Participation in Research Projects
-
-在攻读硕博期间参与了以下项目研究，主要负责项目中跨模态信息语义融合与理解等专题研究工作：
-
-- 新技术驱动的复杂社会系统管理, 国家杰出青年科学基金项目
-- 基于多模态数据融合的智能社会风险预警研究, 国家自然科学基金重点项目
-- 跨模态多语言大数据驱动的社会风险感知与理解, 2030—“新一代人工智能”重大项目
