@@ -24,6 +24,7 @@ I am also open to collaborative opportunities and research partnerships, feel fr
 
 # 🔥 News
 
+- *2026.08*: 🎉 Two papers were accepted by **IEEE T-RO**! Congratulations to all collaborators!
 - *2026.08*: 🔥 Released [PRM-as-a-Judge 1.5](https://prm-as-a-judge.github.io/), a toolkit for robot process assessment (project lead).
 - *2026.06*: 🔥 Released [Orca](https://orca-wm.github.io/) in **BAAI Conference 2026** (first author, project lead).
 - *2026.06*: 🎉 Two papers were accepted by **ECCV 2026**! Congratulations to all collaborators!
@@ -276,7 +277,7 @@ MathSticks is a benchmark for Visual Symbolic Compositional Reasoning (VSCR) tha
 </div>
 </div>
 
-<div class='paper-box' data-cat='survey' data-order='10'><div class='paper-box-image'><div><div class="badge">Preprints 2026</div><img src='images/vla_evaluation_survey.svg' alt="VLA Evaluation Survey" width="100%"></div></div>
+<div class='paper-box' data-cat='survey' data-order='30'><div class='paper-box-image'><div><div class="badge">Preprints 2026</div><img src='images/vla_evaluation_survey.svg' alt="VLA Evaluation Survey" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [The Evaluation Bottleneck of Vision-Language-Action Models: A Evaluation-Centric Survey](https://www.preprints.org/manuscript/202606.0425/v1)
@@ -308,14 +309,14 @@ This survey revisits spatial intelligence from the cognitive-map perspective, co
 </div>
 </div>
 
-<div class='paper-box' data-cat='survey' data-order='30'><div class='paper-box-image'><div><div class="badge">ArXiv 2025</div><img src='images/manipulation_survey.png' alt="Manipulation Survey" width="100%"></div></div>
+<div class='paper-box' data-cat='survey' data-order='40'><div class='paper-box-image'><div><div class="badge">Technical Report 2025</div><img src='images/manipulation_survey.png' alt="Manipulation Survey" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Towards a Unified Understanding of Robot Manipulation: A Comprehensive Survey](https://arxiv.org/abs/2510.10903)
 
 Shuanghao Bai, Wenxuan Song, Jiayi Chen, **Yuheng Ji**, Zhide Zhong, Jin Ynag, Han Zhao, Wanqi Zhou, Wei Zhao, Zhe Li, Pengxiang Ding, Cheng Chi, Haoang Li, Chang Xu, Xiaolong Zheng, Donglin Wang, Shanghang Zhang, Badong Chen
 
-ArXiv 2025
+Technical Report 2025
 
 [**Paper**](https://arxiv.org/abs/2510.10903) <strong>|</strong> [**Repo**](https://github.com/BaiShuanghao/Awesome-Robotics-Manipulation)
 
@@ -453,14 +454,14 @@ We propose a cross-modal hashing framework called CCMH (CLIP-based Cross-Modal H
 </div>
 </div>
 
-<div class='paper-box' data-cat='survey' data-order='40'><div class='paper-box-image'><div><div class="badge">ArXiv 2025</div><img src='images/foundation_model_embodied.png' alt="Embodied Robot Manipulation Survey" width="100%"></div></div>
+<div class='paper-box' data-cat='survey' data-order='10'><div class='paper-box-image'><div><div class="badge">IEEE T-RO 2026</div><img src='images/foundation_model_embodied.png' alt="Embodied Robot Manipulation Survey" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Embodied Robot Manipulation in the Era of Foundation Models: Planning and Learning Perspectives](https://arxiv.org/abs/2512.22983)
 
 Shuanghao Bai, Wenxuan Song, Jiayi Chen, **Yuheng Ji**, Zhide Zhong, Jin Yang, Han Zhao, Wanqi Zhou, Zhe Li, Pengxiang Ding, Cheng Chi, Chang Xu, Xiaolong Zheng, Donglin Wang, Haoang Li, Shanghang Zhang, Badong Chen
 
-ArXiv 2025
+<span style="color: red;">IEEE T-RO 2026</span>
 
 [**Paper**](https://arxiv.org/abs/2512.22983)
 
