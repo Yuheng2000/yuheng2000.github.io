@@ -24,6 +24,7 @@ I am also open to collaborative opportunities and research partnerships, feel fr
 
 # 🔥 News
 
+- *2026.09*: 🎉 One paper was accepted by **NeurIPS 2026**! Congratulations to all collaborators!
 - *2026.08*: 🎉 Two papers were accepted by **IEEE T-RO**! Congratulations to all collaborators!
 - *2026.08*: 🔥 Released [PRM-as-a-Judge 1.5](https://prm-as-a-judge.github.io/), a toolkit for robot process assessment (project lead).
 - *2026.06*: 🔥 Released [Orca](https://orca-wm.github.io/) in **BAAI Conference 2026** (first author, project lead).
